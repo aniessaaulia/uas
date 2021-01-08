@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jan  7 17:40:22 2021
+@author: Aniessa
+"""
+
+from nltk.stem import WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
+
+print ("rocks :", lemmatizer.lemmatize("rocks"))
+print ("corpora :", lemmatizer.lemmatize("corpora"))
+print ("churches :", lemmatizer.lemmatize("churches"))
